@@ -2,9 +2,9 @@
 #####Installation de postgresql
 
 IP = $(hostname -I | awk {'print $2'})
-echo "Install de postgre sur" - $IP
+echo "Install de mariadb sur" - $IP
 
-echo "[1]: Install de postgre"
+echo "[1]: Install de mariadb"
 
 sudo apt-get update -qq -y >/dev/null
 sudo apt-get install -qq -y curl wget git vim >/dev/null
